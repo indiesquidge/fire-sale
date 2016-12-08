@@ -1,0 +1,24 @@
+{
+  "name": "fire-sale",
+  "version": "1.0.0",
+  "description": "write Markdown, see it rendered in HTML!",
+  "main": "./lib/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "markdown",
+    "editor"
+  ],
+  "author": "Austin Wood",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "marked": "^0.3.6"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.11"
+  }
+}
