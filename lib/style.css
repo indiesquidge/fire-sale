@@ -23,8 +23,14 @@ body, input {
 }
 
 textarea, input, div, button {
-  outline: none;
   margin: 0;
+}
+
+textarea:focus,
+input:focus, 
+button:focus {
+  outline: 0;
+  box-shadow: 2px 2px 8px 2px rgb(144, 182, 177);
 }
 
 .controls {
